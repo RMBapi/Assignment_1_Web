@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: 500;
+}
+
+.nav_bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.action-btn {
+  border: 1px solid white;
+  background: transparent;
+  padding: 10px;
+  color: white;
+}
+.logo {
+  margin-left: 2%;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 20%;
+  margin-right: 3%;
+
+  align-items: center;
+}
+
+main {
+  background-image: url("112.jpg");
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input_box input {
+  border: none;
+  /* background-color: #34495e; */
+  /* color: white; */
+  /* padding: 0.5rem 2rem; */
+  /* font-size: 1.2rem; */
+}
+.bnt_1 {
+  margin-top: 0.35rem;
+  border: none;
+  background-color: #27ae60;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1.25rem;
+}
+
+.bnt_2 {
+  border: none;
+  background-color: #34495e;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+}
+
+#msg2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 10%;
+}
+#msg2 p {
+  margin-top: 2rem;
+  margin-left: 10%;
+  width: 65%;
+}
+
+#msg2 h3 {
+  margin-right: 15%;
+}
+
+#img12 {
+  display: flex;
+  justify-content: center;
+}
+
+.img12_sub {
+  /* background-color: #2c3e50; */
+  width: 90%;
+  display: flex;
+  text-align: center;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+}
+.img12_add {
+  width: 30%;
+}
+.clr_h {
+  color: #7f8c8d;
+}
+
+.au_name {
+  color: #2980b9;
+  font-family: "Roboto", sans-serif;
+  font-family: "Yellowtail", cursive;
+}
+
+.img12_add img {
+  width: 100%;
+}
+
+.img12_info {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: -8rem;
+}
+
+#img13 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.img13_info {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#sub {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  width: 98%;
+  margin-left: 1%;
+  background-color: #bdc3c7;
+}
+.input_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_box input {
+  height: 2.2rem;
+  width: 20rem;
+  font-size: 0.85rem;
+  margin-right: 1.3rem;
+}
+
+footer {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 98%;
+  margin-left: 1%;
+  background-color: #2c3e50;
+}
+#sub p {
+  margin-bottom: 1rem;
+}
